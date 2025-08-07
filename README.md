@@ -20,24 +20,7 @@ This open-source project demonstrates how to connect a PHP-based Point of Sale (
 
 ## Structure
 
-php-coti-bridge/
-├── php/ # POS frontend (simulated)
-│ ├── pos.php # Sends transaction to Node API
-│ ├── config.php # API URL & merchant ID
-│ └── admin.php # (Optional) decryption viewer
-│
-├── node/ # Node.js bridge to COTI
-│ ├── index.js # Express API server
-│ ├── cotiBridge.js # Submit to COTI smart contract
-│ ├── .env.example # Config variables
-│ └── package.json # Node dependencies
-│
-├── contracts/ # (Optional) Smart contract ABI
-│ └── EncryptedSale.json
-│
-├── docs/
-│ ├── README.md # This file
-│ └── architecture.png # Architecture diagram
+<pre> php-coti-bridge/ ├── php/ # POS frontend (simulated) │ ├── pos.php # Sends transaction to Node API │ ├── config.php # API URL & merchant ID │ └── admin.php # (Optional) decryption viewer │ ├── node/ # Node.js bridge to COTI │ ├── index.js # Express API server │ ├── cotiBridge.js # Submit to COTI smart contract │ ├── .env.example # Config variables │ └── package.json # Node dependencies │ ├── contracts/ # (Optional) Smart contract ABI │ └── EncryptedSale.json │ ├── docs/ │ ├── README.md # This file │ └── architecture.png # Architecture diagram │ ├── .gitignore └── LICENSE </pre>
 
 
 ---
