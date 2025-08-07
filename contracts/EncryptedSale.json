@@ -1,0 +1,20 @@
+{
+  "contractName": "EncryptedSale",
+  "abi": [
+    {
+      "name": "storeReceipt",
+      "type": "function",
+      "inputs": [
+        { "name": "merchantId", "type": "string" },
+        { "name": "data", "type": "bytes" }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    }
+  ],
+  "networks": {
+    "testnet": {
+      "address": "0xDEADBEEF0000000000000000000000000000C0DE"
+    }
+  }
+}
