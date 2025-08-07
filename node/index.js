@@ -22,5 +22,5 @@ app.post('/api/submit', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 COTI Bridge API running on http://localhost:${PORT}`);
+  console.log(`COTI Bridge API running on http://localhost:${PORT}`);
 });
